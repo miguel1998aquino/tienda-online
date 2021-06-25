@@ -3,7 +3,7 @@
   <div class="example-card">
     <mat-card [class.mat-elevation-z20]="true" *ngFor="let p of productos">
       <mat-card-header class="example-card">
-        <mat-card-title class="example-card">titulo</mat-card-title>
+        <mat-card-title class="example-card">{{p.nombre}}</mat-card-title>
       </mat-card-header>
       <!-- <img
         mat-card-lg-image

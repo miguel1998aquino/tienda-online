@@ -12,7 +12,9 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import {AngularFireStorageModule} from '@angular/fire/storage'
+import {AngularFireAuthModule} from '@angular/fire/auth'
 import { ToastrModule } from 'ngx-toastr';
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { ToastrModule } from 'ngx-toastr';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireStorageModule,
+    AngularFireAuthModule,
     ToastrModule.forRoot(),
   ],
   providers: [],
