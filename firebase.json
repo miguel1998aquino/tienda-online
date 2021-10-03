@@ -4,7 +4,9 @@
       "target": "tienda-online",
       "public": "dist/tienda-online",
       "ignore": [
-        "**/.*"
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
       ],
       "headers": [
         {
