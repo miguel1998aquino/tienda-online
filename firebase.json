@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "tienda-online",
-      "public": "dist/tienda-online",
+      "public": "public",
       "ignore": [
         "**/.*"
       ],
